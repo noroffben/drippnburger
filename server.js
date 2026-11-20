@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const PORT = process.env.PORT || 3000;
-const SITE_NAME = process.env.SITE_NAME || 'My Place';
+const SITE_NAME = process.env.SITE_NAME || 'Dripp"'"n Burgers';
 const DATA_FILE = process.env.DATA_FILE || path.join(__dirname, 'status.json');
 
 // Edit these to change the choices in the admin page.
